@@ -5,7 +5,7 @@ const patientSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Patient must have a first name'],
   },
-  middletName: {
+  middleName: {
     type: String,
   },
   lastName: {
